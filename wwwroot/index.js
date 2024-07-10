@@ -37,7 +37,6 @@ async function run() {
     document.getElementById("mainImg").src  = set_canvas();
 
     mainImg.addEventListener("mouseup", (event) => {
-        console.log(myXY)
         document.getElementById("mainImg").src  = draw_canvas(mainImg.src, JSON.stringify(myXY));
         pressed = false;
         myXY.length = 0;
