@@ -1,0 +1,13 @@
+body {
+  font-family: monospace;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  margin: 15px;
+}
+
+#mainImg {
+  width: 320px;
+  height: 320px;
+  border: 1px solid blue;
+}
